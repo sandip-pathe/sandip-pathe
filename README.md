@@ -16,7 +16,8 @@
 I ship products that handle real user data in environments where errors have consequences.
 
 **Current focus:**
-- **Anaya:** Multi-agent document intelligence for legal contracts. Built with confidence-based routing to prevent AI hallucinations in high-stakes decisions.
+- **Anaya:** Open-Source Compliance-as-Code Engine for GitHub PRs. It plugs into GitHub as an App (or works with CLI), intercepts PRs via webhooks, and runs 3 different scanner types (regex, tree-sitter AST, GPT-4o) against configurable YAML rule packs to catch security/compliance violations — then reports findings as Check Run annotations, inline PR comments, and SARIF uploads.
+- **Anaya (legal doc platform):** Multi-agent document intelligence for legal contracts. Built with confidence-based routing to prevent AI hallucinations in high-stakes decisions.
 - **Workflow orchestration:** Durable execution patterns (Temporal, Redis) for long-running async processes that survive failures.
 - **Research:** Applied neural networks to satellite imagery (PolSAR classification). Published at IEEE IGARSS 2024.
 
